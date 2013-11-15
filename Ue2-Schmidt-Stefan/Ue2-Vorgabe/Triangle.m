@@ -20,6 +20,7 @@
 }
 - (double)circumference
 {
-    return 3 * self.width;
+    double site = sqrt(pow(self.width/2.0,2) + pow(self.width, 2));
+    return (2*site)+self.width;
 }
 @end

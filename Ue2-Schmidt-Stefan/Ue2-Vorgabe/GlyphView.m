@@ -57,6 +57,7 @@
     Glyph *g = [self.glyphs objectAtIndex:index];
     g.showDescription = show;
 }
+
 - (NSMutableArray *)glyphs
 {
     if (_glyphs == nil)

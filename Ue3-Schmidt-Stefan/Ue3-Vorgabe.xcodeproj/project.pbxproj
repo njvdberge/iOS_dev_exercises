@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		884BC0CC182A3E9A00F3DC6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884BC0CB182A3E9A00F3DC6E /* XCTest.framework */; };
+		884BC0D2182A3E9A00F3DC6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 884BC0D0182A3E9A00F3DC6E /* InfoPlist.strings */; };
+		884BC0DF182A40A700F3DC6E /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 884BC0DE182A40A700F3DC6E /* AddressCard.m */; };
+		884BC0E0182A40A700F3DC6E /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 884BC0DE182A40A700F3DC6E /* AddressCard.m */; };
+		884BC0E2182A426100F3DC6E /* AddressCardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 884BC0E1182A426100F3DC6E /* AddressCardTest.m */; };
+		884BC0E4182A517400F3DC6E /* AddressBookTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 884BC0E3182A517400F3DC6E /* AddressBookTest.m */; };
+		884BC0E7182A522500F3DC6E /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 884BC0E6182A522500F3DC6E /* AddressBook.m */; };
+		884BC0E8182A522500F3DC6E /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 884BC0E6182A522500F3DC6E /* AddressBook.m */; };
+		9D2EFC481822705600A05E46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2EFC471822705600A05E46 /* Foundation.framework */; };
+		9D2EFC4B1822705600A05E46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2EFC4A1822705600A05E46 /* main.m */; };
+		9D2EFC4F1822705600A05E46 /* Ue3_Vorgabe.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D2EFC4E1822705600A05E46 /* Ue3_Vorgabe.1 */; };
+		9D2EFC5A1822747200A05E46 /* IOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2EFC591822747200A05E46 /* IOHelper.m */; };
+		9D2EFC5D18227E3400A05E46 /* BookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2EFC5C18227E3400A05E46 /* BookController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884BC0D6182A3E9A00F3DC6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2EFC3C1822705600A05E46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D2EFC431822705600A05E46;
+			remoteInfo = "Ue3-Vorgabe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D2EFC421822705600A05E46 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9D2EFC4F1822705600A05E46 /* Ue3_Vorgabe.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		884BC0CA182A3E9A00F3DC6E /* Ue3-Vorgabe Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ue3-Vorgabe Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884BC0CB182A3E9A00F3DC6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		884BC0CF182A3E9A00F3DC6E /* Ue3-Vorgabe Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ue3-Vorgabe Tests-Info.plist"; sourceTree = "<group>"; };
+		884BC0D1182A3E9A00F3DC6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		884BC0D5182A3E9A00F3DC6E /* Ue3-Vorgabe Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ue3-Vorgabe Tests-Prefix.pch"; sourceTree = "<group>"; };
+		884BC0DD182A40A700F3DC6E /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCard.h; sourceTree = "<group>"; };
+		884BC0DE182A40A700F3DC6E /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = "<group>"; };
+		884BC0E1182A426100F3DC6E /* AddressCardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCardTest.m; sourceTree = "<group>"; };
+		884BC0E3182A517400F3DC6E /* AddressBookTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookTest.m; sourceTree = "<group>"; };
+		884BC0E5182A522500F3DC6E /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		884BC0E6182A522500F3DC6E /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		9D2EFC441822705600A05E46 /* Ue3-Vorgabe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ue3-Vorgabe"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2EFC471822705600A05E46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D2EFC4A1822705600A05E46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D2EFC4D1822705600A05E46 /* Ue3-Vorgabe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ue3-Vorgabe-Prefix.pch"; sourceTree = "<group>"; };
+		9D2EFC4E1822705600A05E46 /* Ue3_Vorgabe.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ue3_Vorgabe.1; sourceTree = "<group>"; };
+		9D2EFC581822747200A05E46 /* IOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHelper.h; sourceTree = "<group>"; };
+		9D2EFC591822747200A05E46 /* IOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOHelper.m; sourceTree = "<group>"; };
+		9D2EFC5B18227E3400A05E46 /* BookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookController.h; sourceTree = "<group>"; };
+		9D2EFC5C18227E3400A05E46 /* BookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884BC0C7182A3E9A00F3DC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884BC0CC182A3E9A00F3DC6E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2EFC411822705600A05E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2EFC481822705600A05E46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884BC0CD182A3E9A00F3DC6E /* Ue3-Vorgabe Tests */ = {
+			isa = PBXGroup;
+			children = (
+				884BC0E3182A517400F3DC6E /* AddressBookTest.m */,
+				884BC0E1182A426100F3DC6E /* AddressCardTest.m */,
+				884BC0CE182A3E9A00F3DC6E /* Supporting Files */,
+			);
+			path = "Ue3-Vorgabe Tests";
+			sourceTree = "<group>";
+		};
+		884BC0CE182A3E9A00F3DC6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				884BC0CF182A3E9A00F3DC6E /* Ue3-Vorgabe Tests-Info.plist */,
+				884BC0D0182A3E9A00F3DC6E /* InfoPlist.strings */,
+				884BC0D5182A3E9A00F3DC6E /* Ue3-Vorgabe Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D2EFC3B1822705600A05E46 = {
+			isa = PBXGroup;
+			children = (
+				9D2EFC491822705600A05E46 /* Ue3-Vorgabe */,
+				884BC0CD182A3E9A00F3DC6E /* Ue3-Vorgabe Tests */,
+				9D2EFC461822705600A05E46 /* Frameworks */,
+				9D2EFC451822705600A05E46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D2EFC451822705600A05E46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D2EFC441822705600A05E46 /* Ue3-Vorgabe */,
+				884BC0CA182A3E9A00F3DC6E /* Ue3-Vorgabe Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D2EFC461822705600A05E46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D2EFC471822705600A05E46 /* Foundation.framework */,
+				884BC0CB182A3E9A00F3DC6E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D2EFC491822705600A05E46 /* Ue3-Vorgabe */ = {
+			isa = PBXGroup;
+			children = (
+				884BC0E5182A522500F3DC6E /* AddressBook.h */,
+				884BC0E6182A522500F3DC6E /* AddressBook.m */,
+				9D2EFC4A1822705600A05E46 /* main.m */,
+				9D2EFC4E1822705600A05E46 /* Ue3_Vorgabe.1 */,
+				9D2EFC581822747200A05E46 /* IOHelper.h */,
+				9D2EFC591822747200A05E46 /* IOHelper.m */,
+				9D2EFC5B18227E3400A05E46 /* BookController.h */,
+				9D2EFC5C18227E3400A05E46 /* BookController.m */,
+				9D2EFC4C1822705600A05E46 /* Supporting Files */,
+				884BC0DD182A40A700F3DC6E /* AddressCard.h */,
+				884BC0DE182A40A700F3DC6E /* AddressCard.m */,
+			);
+			path = "Ue3-Vorgabe";
+			sourceTree = "<group>";
+		};
+		9D2EFC4C1822705600A05E46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D2EFC4D1822705600A05E46 /* Ue3-Vorgabe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884BC0C9182A3E9A00F3DC6E /* Ue3-Vorgabe Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884BC0DA182A3E9A00F3DC6E /* Build configuration list for PBXNativeTarget "Ue3-Vorgabe Tests" */;
+			buildPhases = (
+				884BC0C6182A3E9A00F3DC6E /* Sources */,
+				884BC0C7182A3E9A00F3DC6E /* Frameworks */,
+				884BC0C8182A3E9A00F3DC6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884BC0D7182A3E9A00F3DC6E /* PBXTargetDependency */,
+			);
+			name = "Ue3-Vorgabe Tests";
+			productName = "Ue3-Vorgabe Tests";
+			productReference = 884BC0CA182A3E9A00F3DC6E /* Ue3-Vorgabe Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D2EFC431822705600A05E46 /* Ue3-Vorgabe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2EFC521822705600A05E46 /* Build configuration list for PBXNativeTarget "Ue3-Vorgabe" */;
+			buildPhases = (
+				9D2EFC401822705600A05E46 /* Sources */,
+				9D2EFC411822705600A05E46 /* Frameworks */,
+				9D2EFC421822705600A05E46 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ue3-Vorgabe";
+			productName = "Ue3-Vorgabe";
+			productReference = 9D2EFC441822705600A05E46 /* Ue3-Vorgabe */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D2EFC3C1822705600A05E46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Klaus Jung";
+				TargetAttributes = {
+					884BC0C9182A3E9A00F3DC6E = {
+						TestTargetID = 9D2EFC431822705600A05E46;
+					};
+				};
+			};
+			buildConfigurationList = 9D2EFC3F1822705600A05E46 /* Build configuration list for PBXProject "Ue3-Vorgabe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D2EFC3B1822705600A05E46;
+			productRefGroup = 9D2EFC451822705600A05E46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D2EFC431822705600A05E46 /* Ue3-Vorgabe */,
+				884BC0C9182A3E9A00F3DC6E /* Ue3-Vorgabe Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884BC0C8182A3E9A00F3DC6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884BC0D2182A3E9A00F3DC6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884BC0C6182A3E9A00F3DC6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884BC0E2182A426100F3DC6E /* AddressCardTest.m in Sources */,
+				884BC0E4182A517400F3DC6E /* AddressBookTest.m in Sources */,
+				884BC0E8182A522500F3DC6E /* AddressBook.m in Sources */,
+				884BC0E0182A40A700F3DC6E /* AddressCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2EFC401822705600A05E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884BC0DF182A40A700F3DC6E /* AddressCard.m in Sources */,
+				9D2EFC4B1822705600A05E46 /* main.m in Sources */,
+				884BC0E7182A522500F3DC6E /* AddressBook.m in Sources */,
+				9D2EFC5A1822747200A05E46 /* IOHelper.m in Sources */,
+				9D2EFC5D18227E3400A05E46 /* BookController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		884BC0D7182A3E9A00F3DC6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D2EFC431822705600A05E46 /* Ue3-Vorgabe */;
+			targetProxy = 884BC0D6182A3E9A00F3DC6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		884BC0D0182A3E9A00F3DC6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884BC0D1182A3E9A00F3DC6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884BC0D8182A3E9A00F3DC6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ue3-Vorgabe Tests/Ue3-Vorgabe Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Ue3-Vorgabe Tests/Ue3-Vorgabe Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		884BC0D9182A3E9A00F3DC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ue3-Vorgabe Tests/Ue3-Vorgabe Tests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Ue3-Vorgabe Tests/Ue3-Vorgabe Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		9D2EFC501822705600A05E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9D2EFC511822705600A05E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9D2EFC531822705600A05E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ue3-Vorgabe/Ue3-Vorgabe-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D2EFC541822705600A05E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ue3-Vorgabe/Ue3-Vorgabe-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884BC0DA182A3E9A00F3DC6E /* Build configuration list for PBXNativeTarget "Ue3-Vorgabe Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884BC0D8182A3E9A00F3DC6E /* Debug */,
+				884BC0D9182A3E9A00F3DC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2EFC3F1822705600A05E46 /* Build configuration list for PBXProject "Ue3-Vorgabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2EFC501822705600A05E46 /* Debug */,
+				9D2EFC511822705600A05E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2EFC521822705600A05E46 /* Build configuration list for PBXNativeTarget "Ue3-Vorgabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2EFC531822705600A05E46 /* Debug */,
+				9D2EFC541822705600A05E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D2EFC3C1822705600A05E46 /* Project object */;
+}
