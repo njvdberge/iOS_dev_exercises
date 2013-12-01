@@ -7,18 +7,8 @@
 //
 
 #import "Bank.h"
-#import "Sum.h"
 
 @implementation Bank
-
--(NSMutableDictionary *)rates
-{
-    if (_rates == nil)
-    {
-        _rates = [NSMutableDictionary dictionaryWithCapacity:6];
-    }
-    return _rates;
-}
 
 - (Money *)reduce:(id<Expression>) source to:(NSString *)sink
 {
@@ -39,6 +29,13 @@
 {
     NSString *key = [NSString stringWithFormat:@"%@:%@", oneCurrency, anotherCurrency];
     [self.rates setObject:[NSNumber numberWithDouble:rate] forKey:key];
+}
+
++ (Bank *)bankWithRates
+{
+    Bank *bank = [[self alloc] init];
+    bank.rates = [NSMutableDictionary dictionaryWithCapacity:10];
+    return [bank autorelease];
 }
 
 @end

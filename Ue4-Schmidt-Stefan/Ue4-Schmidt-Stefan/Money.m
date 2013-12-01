@@ -7,8 +7,8 @@
 //
 
 #import "Money.h"
-#import "Sum.h"
 #import "Bank.h"
+#import "Sum.h"
 
 @implementation Money
 @synthesize amount = _amount;
@@ -34,6 +34,11 @@
 + (Money *)pound:(double)amount
 {
     return [Money moneyWithValue:amount andCurrency:@"GBP"];
+}
+
++ (Money *)euro:(double)amount
+{
+    return [Money moneyWithValue:amount andCurrency:@"EUR"];
 }
 
 - (NSString *)description

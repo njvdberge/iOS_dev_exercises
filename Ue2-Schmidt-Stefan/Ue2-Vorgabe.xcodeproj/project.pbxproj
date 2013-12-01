@@ -123,13 +123,13 @@
 				88ED201D1817B3BB00114CFF /* PointXY.h */,
 				88ED201E1817B3BB00114CFF /* PointXY.m */,
 				88ED20201817B42600114CFF /* Glyph.h */,
+				88ED20211817B42600114CFF /* Glyph.m */,
 				88ED20231817B76600114CFF /* Square.h */,
 				88ED20241817B76600114CFF /* Square.m */,
 				88ED20261817B77B00114CFF /* Triangle.h */,
 				88ED20271817B77B00114CFF /* Triangle.m */,
 				88ED20291817B78E00114CFF /* Circle.h */,
 				88ED202A1817B78E00114CFF /* Circle.m */,
-				88ED20211817B42600114CFF /* Glyph.m */,
 			);
 			path = "Ue2-Vorgabe";
 			sourceTree = "<group>";

@@ -15,5 +15,5 @@
 - (Money *)reduce:(id<Expression>) source to:(NSString *)sink;
 - (double)rateFrom:(NSString *)oneCurrency to:(NSString *)anotherCurrency;
 - (void)addRate:(double) rate from:(NSString *)oneCurrency to:(NSString *)anotherCurrency;
-
++ (Bank *)bankWithRates;
 @end

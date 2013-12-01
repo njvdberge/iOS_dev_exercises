@@ -15,7 +15,6 @@
 @property(nonatomic, retain) NSString *currency;
 
 - (BOOL)isEqual:(id)object;
-- (Money *)times:(double)otherValue;
 + (Money *)moneyWithValue:(double)value andCurrency:(NSString *)currency;
 + (Money *)dollar:(double)amount;
 + (Money *)pound:(double)amount;

@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8826EAA6183D2CFF00B2B955 /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8826EAA5183D2CFF00B2B955 /* Bank.m */; };
-		887EB32C184B783B00F971ED /* Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 887EB32B184B783B00F971ED /* Sum.m */; };
-		887EB32D184B783B00F971ED /* Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 887EB32B184B783B00F971ED /* Sum.m */; };
+		887EB334184BADB400F971ED /* Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 887EB333184BADB400F971ED /* Sum.m */; };
+		887EB335184BADB400F971ED /* Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 887EB333184BADB400F971ED /* Sum.m */; };
+		887EB338184BAF7A00F971ED /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887EB337184BAF7A00F971ED /* ViewController.xib */; };
+		887EB339184BAF7A00F971ED /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887EB337184BAF7A00F971ED /* ViewController.xib */; };
 		88A1900F183D07D700533014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A1900E183D07D700533014 /* Foundation.framework */; };
 		88A19011183D07D700533014 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A19010183D07D700533014 /* CoreGraphics.framework */; };
 		88A19013183D07D700533014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A19012183D07D700533014 /* UIKit.framework */; };
@@ -22,8 +24,6 @@
 		88A19032183D07D700533014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A1900E183D07D700533014 /* Foundation.framework */; };
 		88A19033183D07D700533014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A19012183D07D700533014 /* UIKit.framework */; };
 		88A1903B183D07D700533014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88A19039183D07D700533014 /* InfoPlist.strings */; };
-		88A1904E183D0BB200533014 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A1904D183D0BB200533014 /* ViewController.xib */; };
-		88A1904F183D0BB200533014 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A1904D183D0BB200533014 /* ViewController.xib */; };
 		88A19051183D0DEA00533014 /* DollarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A19050183D0DEA00533014 /* DollarTest.m */; };
 		88B84D56183D193100D2E067 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B84D55183D193100D2E067 /* Money.m */; };
 /* End PBXBuildFile section */
@@ -41,9 +41,10 @@
 /* Begin PBXFileReference section */
 		8826EAA4183D2CFF00B2B955 /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
 		8826EAA5183D2CFF00B2B955 /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
-		8826EAA7183D2D2000B2B955 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Expression.h; path = ../Expression.h; sourceTree = "<group>"; };
-		887EB32A184B783B00F971ED /* Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sum.h; sourceTree = "<group>"; };
-		887EB32B184B783B00F971ED /* Sum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sum.m; sourceTree = "<group>"; };
+		887EB332184BADB400F971ED /* Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sum.h; sourceTree = "<group>"; };
+		887EB333184BADB400F971ED /* Sum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sum.m; sourceTree = "<group>"; };
+		887EB336184BAF7A00F971ED /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		887EB337184BAF7A00F971ED /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		88A1900B183D07D700533014 /* Ue4-Schmidt-Stefan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ue4-Schmidt-Stefan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A1900E183D07D700533014 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88A19010183D07D700533014 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +62,6 @@
 		88A19030183D07D700533014 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		88A19038183D07D700533014 /* Ue4-Schmidt-StefanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ue4-Schmidt-StefanTests-Info.plist"; sourceTree = "<group>"; };
 		88A1903A183D07D700533014 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		88A1904D183D0BB200533014 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
 		88A19050183D0DEA00533014 /* DollarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarTest.m; sourceTree = "<group>"; };
 		88B84D54183D193100D2E067 /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
 		88B84D55183D193100D2E067 /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
@@ -124,20 +124,20 @@
 		88A19014183D07D700533014 /* Ue4-Schmidt-Stefan */ = {
 			isa = PBXGroup;
 			children = (
+				887EB332184BADB400F971ED /* Sum.h */,
+				887EB333184BADB400F971ED /* Sum.m */,
 				88A1901D183D07D700533014 /* AppDelegate.h */,
 				88A1901E183D07D700533014 /* AppDelegate.m */,
 				88A19026183D07D700533014 /* ViewController.h */,
 				88A19027183D07D700533014 /* ViewController.m */,
-				88A1904D183D0BB200533014 /* ViewController.xib */,
+				887EB336184BAF7A00F971ED /* Expression.h */,
+				887EB337184BAF7A00F971ED /* ViewController.xib */,
 				88A19029183D07D700533014 /* Images.xcassets */,
 				88A19015183D07D700533014 /* Supporting Files */,
 				88B84D54183D193100D2E067 /* Money.h */,
 				88B84D55183D193100D2E067 /* Money.m */,
-				8826EAA7183D2D2000B2B955 /* Expression.h */,
 				8826EAA4183D2CFF00B2B955 /* Bank.h */,
 				8826EAA5183D2CFF00B2B955 /* Bank.m */,
-				887EB32A184B783B00F971ED /* Sum.h */,
-				887EB32B184B783B00F971ED /* Sum.m */,
 			);
 			path = "Ue4-Schmidt-Stefan";
 			sourceTree = "<group>";
@@ -248,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A1902A183D07D700533014 /* Images.xcassets in Resources */,
-				88A1904E183D0BB200533014 /* ViewController.xib in Resources */,
+				887EB338184BAF7A00F971ED /* ViewController.xib in Resources */,
 				88A19019183D07D700533014 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88A1904F183D0BB200533014 /* ViewController.xib in Resources */,
+				887EB339184BAF7A00F971ED /* ViewController.xib in Resources */,
 				88A1903B183D07D700533014 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +272,7 @@
 				8826EAA6183D2CFF00B2B955 /* Bank.m in Sources */,
 				88A19028183D07D700533014 /* ViewController.m in Sources */,
 				88B84D56183D193100D2E067 /* Money.m in Sources */,
-				887EB32C184B783B00F971ED /* Sum.m in Sources */,
+				887EB334184BADB400F971ED /* Sum.m in Sources */,
 				88A1901F183D07D700533014 /* AppDelegate.m in Sources */,
 				88A1901B183D07D700533014 /* main.m in Sources */,
 			);
@@ -283,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A19051183D0DEA00533014 /* DollarTest.m in Sources */,
-				887EB32D184B783B00F971ED /* Sum.m in Sources */,
+				887EB335184BADB400F971ED /* Sum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
