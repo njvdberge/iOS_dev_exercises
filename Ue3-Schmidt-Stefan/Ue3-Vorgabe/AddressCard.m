@@ -82,10 +82,7 @@
         self.friends = [decoder decodeObjectForKey:@"friends"];
     }
     return self;
-    
 }
-
-
 
 - (void) dealloc
 {

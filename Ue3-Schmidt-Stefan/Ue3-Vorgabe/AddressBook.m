@@ -14,15 +14,13 @@
 
 - (void)addCard:(AddressCard *)card
 {
-    //[self.cards addObject:card];
-    //[self sortCards];
     [self addCardSorted:card];
 }
 
 - (void)removeCard:(AddressCard *)card
 {
     [self removeCardFromFriends:card];
-    [self.cards removeObject:card];
+    [self.cards removeObjectIdenticalTo:card];
 }
 
 - (void) removeCardFromFriends:(AddressCard *)card
@@ -32,17 +30,6 @@
         [temp_card removeFriend:card];
     }
 }
-
-//- (void)sortCards
-//{
-//    NSArray *sortedCards;
-//    sortedCards = [self.cards sortedArrayUsingComparator:^NSComparisonResult(id a, id b) {
-//        NSString *firstName = [(AddressCard *)a lastName];
-//        NSString *secondName = [(AddressCard *)b lastName];
-//        return [firstName compare:secondName];
-//    }];
-//    self.cards = [sortedCards mutableCopy];
-//}
 
 - (void)addCardSorted:(AddressCard *)card
 {
@@ -76,7 +63,6 @@
     if (loadedCards){
         book.cards = loadedCards;
     }
-    [loadedCards release];
     return [book autorelease];
 }
 

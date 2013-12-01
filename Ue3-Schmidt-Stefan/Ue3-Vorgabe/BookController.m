@@ -58,6 +58,10 @@
     card.streetNumber = [IOHelper readIntegerNumberWithMessage:@"Hausnummer"];
     card.postalCode = [IOHelper readIntegerNumberWithMessage:@"Postleitzahl"];
     card.location = [IOHelper readLineWithMessage:@"Ort"];
+    NSString *sel;
+    while (![(sel = [IOHelper readLineWithMessage:@"Hobby: (Abbruch mit (Q))"])  isEqual: @"q"]) {
+        [card addHobby:sel];
+    }
     [self.book addCard:card];
     [card release];
 }
@@ -89,7 +93,13 @@
 
 - (void)addFriendToCard:(AddressCard *)card
 {
-    
+    AddressCard *friend = [self findCardByLastName];
+    if (friend) {
+        [card addFriend:friend];
+        [IOHelper printLineWithFormat:@"%@ %@ added", friend.firstName, friend.lastName];
+    } else {
+        [IOHelper printLineWithFormat:@"No contact found"];
+    }
 }
 
 - (AddressCard *)findCardByLastName
@@ -97,7 +107,7 @@
     NSString *searchName = [IOHelper readLineWithMessage:@"Suchname:"];
     AddressCard *card = [[self.book findCardForLastName:searchName] firstObject];
 
-    return [card autorelease];
+    return card;
 }
 
 - (void)printBook {
@@ -114,8 +124,22 @@
     [IOHelper printLineWithFormat:@"| %@ %@", card.firstName, card.lastName];
     [IOHelper printLineWithFormat:@"| %@ %@", card.street, card.streetNumber];
     [IOHelper printLineWithFormat:@"| %@ %@", card.postalCode, card.location];
+    [self printCollection:card.hobbies withTitle:@"Hobbies"];
+    [self printCollection:card.friends withTitle:@"Friends"];
     [IOHelper printLineWithFormat:@"+-----------------------------------"];
 
+}
+
+- (void)printCollection:(NSMutableArray *) collection withTitle:(NSString *)title
+{
+    if([collection count] > 0)
+    {
+        [IOHelper printLineWithFormat:@"| %@", title];
+        for (NSString *item in collection)
+        {
+            [IOHelper printLineWithFormat:@"| %@", item];
+        }
+    }
 }
 
 @end
